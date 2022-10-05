@@ -1,0 +1,18 @@
+git config --global --list
+echo "# Git" >> README.md
+git init
+git add README.md
+git commit -m "Hello World!"
+git branch -M main
+git remote add origin git@github.com:thethan01/git.git
+git push -u origin main
+git add . 
+git pull 
+git push
+git stash
+git clone git@github.com:thethan01/git.git
+git merge
+git status
+git checkout
+git reset
+git log
